@@ -9,7 +9,7 @@ import Foundation
 
 final class BitcoinService {
     func fetch(completion: @escaping (Result<String, Error>) -> Void) {
-        let urlString = ""
+        let urlString = "https://api.coindesk.com/v1/bpi/currentprice/BTC.json"
         guard let url = URL(string: urlString) else {
             completion(.failure(URLError(.badURL)))
             return
