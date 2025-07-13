@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class BitcoinViewController: UIViewController {
+final class BitcoinViewController: UIViewController {
     // MARK: UI Elements
     
     private let label: UILabel = {
