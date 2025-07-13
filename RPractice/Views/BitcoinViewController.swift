@@ -32,7 +32,6 @@ final class BitcoinViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpViews()
-        // Do any additional setup after loading the view.
     }
     
     private func setUpViews() {
